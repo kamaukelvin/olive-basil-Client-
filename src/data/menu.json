@@ -1,0 +1,207 @@
+{
+  "categories": {
+    "salads": [
+      {
+        "name": "Mandarin Pasta",
+        "price": "900/=",
+        "additives": "(With Spinach & a Teriyaki Dressing)",
+        "image": "../../assets/img/menu-image.jpg"
+      },
+      {
+        "name": "Cranberry Apple Quinoa",
+        "price": "1100/=",
+        "additives": "(With Walnuts & a honey apple cider vinaigrette)"
+      },
+      {
+        "name": "Blueberry Beet Walnut",
+        "price": "1050/=",
+        "additives": "(With a Maple Tahini Dressing)"
+      },
+      {
+        "name": "Mango black Bean",
+        "price": "900/=",
+        "additives": "(With A Cilantro & Lime Dressing)"
+      },
+      {
+        "name": "BBQ Chickpea",
+        "price": "800/=",
+        "additives": "(With A Tahini Ranch Dressing)"
+      },
+      {
+        "name": "Harvest Quinoa",
+        "price": "900/=",
+        "additives": "(With An Apple Cider Vinaigrette)"
+      },
+      {
+        "name": "Thai Rainbow",
+        "price": "950/=",
+        "additives": "(With A Peanut Red Curry Sauce)"
+      }
+    ],
+    "Budha Bowls": [
+      {
+        "name": "Call Me Butter Bowl",
+        "price": "890/=",
+        "additives": "(With Cauliflower & a Peanut Butter Coconut Dressing)"
+      },
+      {
+        "name": "Chipotle Tahini Bowl",
+        "price": "900/=",
+        "additives": "(With Chipotle Tahini Power Dressing)"
+      },
+      {
+        "name": "Spicy Satay Bowl",
+        "price": "950/=",
+        "additives": "(With Tofu Satay With A Thai Peanut Sauce)"
+      },
+      {
+        "name": "Nourishing Garden Bowl",
+        "price": "890/=",
+        "additives": "(With Toasted Sunflower seeds & A Green Goddess Dressing)"
+      },
+      {
+        "name": "Krispy Korean BBQ Tofu Bowl",
+        "price": "950/=",
+        "additives": "(With a BBQ sauce Dressing)"
+      },
+      {
+        "name": "Black Bean Bowl",
+        "price": "890/=",
+        "additives": "(With Walnuts & an Avocado Pesto)"
+      },
+      {
+        "name": "Bali Power Bowl",
+        "price": "890/=",
+        "additives": "(With a Tamari Lime Sauce)"
+      },
+      {
+        "name": "Sunshine Bowl",
+        "price": "800/=",
+        "additives": "(Spiced chickpea, Sweet potato & a Tahini Curry Dressing)"
+      }
+    ],
+    "Burgers": [
+      {
+        "name": "Black Bean Walnut Burger",
+        "price": "1190/=",
+        "additives": "(With Saucy Sweet Onions & an Avocado Pesto)"
+      },
+      {
+        "name": "Spicy Miso Portobello Burger",
+        "price": "1190/=",
+        "additives": "(With A Miso Power Dressing & Creamy Guacamole)"
+      },
+      {
+        "name": "Beet Quinoa Burger",
+        "price": "1190/=",
+        "additives": "(With Feta Cheese & an Avocado Ranch Dressing)"
+      },
+      {
+        "name": "Chickpea Burger",
+        "price": "1190/=",
+        "additives": "(Topped with Spicy Vegan Mayo,& BBQ Mushroom)"
+      },
+      {
+        "name": "BBQ Tex-Mex Burger",
+        "price": "1190/=",
+        "additives": "(Topped with pickled Red Onions, Cheddar cheese,& dressed with BBQ sauce)"
+      }
+    ],
+
+    "Breads": [
+      {
+        "name": "Black Bean Burrito",
+        "price": "900/=",
+        "additives": "(With Pesto Rice, Vegan Sour Cream Dressing)"
+      },
+      {
+        "name": "Falafel in Pita",
+        "price": "600/=",
+        "additives": "(With A Cilantro & Lime Tahini Dressing)"
+      },
+      {
+        "name": "MiddleEastern Shawarma",
+        "price": "600/=",
+        "additives": "(With Pickled Red Cabbage, & a Tahini Ranch Dressing)"
+      }
+    ],
+
+    "Stufffed Sweet Potatoes": [
+      {
+        "name": "Chickpea Massoman Curry",
+        "price": "650/=",
+        "additives": "(With roasted peanuts)"
+      },
+      {
+        "name": "Bean Walnut Chilli",
+        "price": "750/=",
+        "additives": "(Topped with Fresh Guacamole)"
+      },
+      {
+        "name": "Mexican Quinoa",
+        "price": "750/=",
+        "additives": "(Topped with spicy mango chutney & a Cilantro & Lime Tahini Dressing)"
+      },
+      {
+        "name": "Mediterrenean Quinoa",
+        "price": "750/=",
+        "additives": "(Topped with a Tahini Dressing)"
+      }
+    ],
+
+    "Hot Pots": [
+      {
+        "name": "Tofu Veggie Lo Mein",
+        "price": "1100/=",
+        "additives": "(Topped with a sweet Tamari sauce)"
+      },
+      {
+        "name": "Chickpea Coconut Curry",
+        "price": "1050/=",
+        "additives": "(With Cilantro Lime Cauliflower Rice & Herbed Cashew Yoghurt)"
+      },
+      {
+        "name": "Soy-Ginger BBQ Chickpea Stir Fry",
+        "price": "900/=",
+        "additives": "(With Rice & a Sticky Sesame Sauce)"
+      },
+      {
+        "name": "Jamaican Plantain Rice",
+        "price": "950/=",
+        "additives": "(With Saucy Spiced Black Beans & A Pico De Gallo)"
+      },
+      {
+        "name": "Tandoori Fried Rice",
+        "price": "1000/=",
+        "additives": "(Sauteed Chickpeas,With a Cashew Raita)"
+      },
+      {
+        "name": "Tahini Chickpea Stew",
+        "price": "1050/=",
+        "additives": "(With Fluffy Naan Bread, Creamy Hummus & Mashed Avocado)"
+      }
+    ],
+    "Brunch": [
+      {
+        "name": "Fluffy Vanilla Vegan Pancakes",
+        "price": "600/=",
+        "additives": "(With Assorted Berries & a Mint Orange Syrup)"
+      },
+      {
+        "name": "PB & J Stuffed Sweet Potatoes",
+        "price": "700/=",
+        "additives": "(With Creamy Peanut Butter, Chia Jam, bananas & Assorted Berries)"
+      },
+      {
+        "name": "Baked Spinach Mushroom Quesadillas",
+        "price": "750/=",
+        "additives": "(With Cheddar Cheese)"
+      },
+      {
+        "name": "Honey Chilli Potatoes",
+        "price": "500/=",
+        "additives": "(With a Sesame Honey Chilli Sauce)"
+      }
+    ]
+  }
+}
