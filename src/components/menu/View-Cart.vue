@@ -23,7 +23,7 @@
               <img class="img-fluid" :src="`/${salad.image}`" />
             </div>
             <div class="col">
-              <div class="row text-muted">{{salad.category}}</div>
+              <div class="row text-muted">{{ salad.category }}</div>
               <div class="row">{{ salad.name }}</div>
             </div>
             <div class="col">
@@ -31,6 +31,7 @@
               <a href="#" class="border">{{ salad.quantity }}</a>
               <i class="fas fa-minus-square ml-2" @click="minusQty(salad)"></i>
             </div>
+
             <div class="col">
               Ksh. {{ salad.price * salad.quantity }}
               <span class="close"><i class="fas fa-trash-alt"></i></span>
@@ -55,8 +56,18 @@
           <h5><b>Summary</b></h5>
         </div>
         <hr />
+        <div style="padding-left:0;">
+          Meals Per Week <strong>{{ getSelectedPlan.mealPerWeek }}</strong>
+        </div>
+        <div style="padding-left:0;">
+          Serving Plan <strong>{{ Number(getSelectedPlan.title.match(/\d+/)[0] )}}</strong>
+        </div>
+
         <div class="row">
-          <div class="col" style="padding-left:0;">ITEMS {{ cart.length }}</div>
+          <div class="col" style="padding-left:0;">
+            ITEMS <strong>{{ cart.length }}</strong>
+          </div>
+
           <div class="col text-right">
             <strong>SUB TOTAL:</strong> Ksh. {{ this.getSubTotal }}
           </div>
@@ -88,10 +99,10 @@ import { mapGetters, mapActions } from "vuex";
 export default {
   name: "View-Cart",
   computed: {
-    ...mapGetters(["getSubTotal", "getTotal"]),
+    ...mapGetters(["getSubTotal", "getTotal", "getSelectedPlan", "getPlan"]),
   },
   mounted() {
-    console.log("WHAT IS,",this.cart)
+    console.log("WHAT IS,", this.cart);
     this.subTotal();
     this.cartTotal();
   },

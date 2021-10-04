@@ -8,15 +8,22 @@ export const cart = {
   getters: {
     getCart: (state) => state.cart,
     getTotal: (state) => state.total,
-    getSubTotal: (state) => state.subTotal,
-    getPlan: (state) => state.plan,
+    getSubTotal: (state, getters, rootState, rootGetters) => {
+      console.log("TETS", rootGetters.getSelectedPlan.title);
+      return (
+        state.subTotal *
+        rootGetters.getSelectedPlan.mealPerWeek *
+        Number(rootGetters.getSelectedPlan.title.match(/\d+/)[0])
+      );
+    }
+    
   },
   mutations: {
     addToCart(state, item) {
       state.cart.push(item);
     },
     clearCart(state) {
-      state.cart=[];
+      state.cart = [];
     },
     subTotal(state) {
       let tempSubTotal = 0;
